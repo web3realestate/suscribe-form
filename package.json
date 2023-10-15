@@ -1,0 +1,33 @@
+{
+  "name": "newsletter-signup",
+  "version": "1.0.0",
+  "description": "A Webapp that enables visitors to signup for Newsletters.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ishandeveloper/Newsletter-Signup.git"
+  },
+  "keywords": [
+    "newsletter",
+    "mailchimp",
+    "mailchimp-api",
+    "api"
+  ],
+  "author": "ishandeveloper",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ishandeveloper/Newsletter-Signup/issues"
+  },
+  "homepage": "https://github.com/ishandeveloper/Newsletter-Signup#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.9.6",
+    "nodemon": "^3.0.1",
+    "request": "^2.88.2"
+  }
+}
